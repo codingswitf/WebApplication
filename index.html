@@ -11,6 +11,9 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="js/jqurey.js"></script>
+<script src="js/bootstrap.min.js"></script>
+ <link rel="stylesheet" type="text/css" href="C:/Users/wutth/Desktop/Website/WebApplication/styles.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -21,25 +24,46 @@
   <body>
    <nav class="navbar navbar-inverse" role="navigation">
      <div class="container-fluid">
+     <div class="navbar-header">
+     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-WDM-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+      </button>
        <a class="navbar-brand" href="#">Franky</a>
-     <div class="navbar-hrannd navbar-right">
+         </div>
+     <div class="collapse navbar-collapse navbar-right" id="bs-WDM-navbar-collapse-1">
        <ul class="nav navbar-nav">
+<!-- <a href="#" class="action-button animate blue">Home</a>
+  <a href="#" class="action-button animate red">Product</a>
+  <a href="#" class="action-button animate green">Content</a>
+  <a href="#" class="action-button animate yellow">Profile</a>
+  <button type="button" class="btn btn-default navbar-btn">Sign in</button> -->
        <li><a href="index.html">Home</a></li>
         <li><a href="index.html">Product</a></li>
          <li><a href="index.html">About</a></li>
            <li><a href="index.html">Contact</a></li>
-            <li><a href="index.html">Profile</a></li>
-
+            <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Setting<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Logout</a></li>
+          </ul>
+        </li>
            </ul>
+
      </div>
       </div>
+    
 </nav>
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="www.youtube.com/embed/RbQ40oF-VP0"></iframe>
+</div>
 <!-- <div class="embed-responsive embed-responsive-4by3">
   <iframe class="embed-responsive-item" src="..."></iframe>
 </div> -->
-<object width="420" height="315"data="http://www.youtube.com/embed/Mk7-GRWq7wA">
-</object>
-<script src="js/jqurey.js"></script>
-<script src="js/bootstrap.min.js"></script>
+
+
   </body>
 </html>
